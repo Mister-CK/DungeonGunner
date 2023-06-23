@@ -1,0 +1,85 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/cka30181/workspaces/UnityProjects/Dungeon Gunner
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58579
+Successfully changed project path to: /Users/cka30181/workspaces/UnityProjects/Dungeon Gunner
+/Users/cka30181/workspaces/UnityProjects/Dungeon Gunner
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/cka30181/workspaces/UnityProjects/Dungeon Gunner/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2023-06-23 15:01:19.754 Unity[21256:16184278] (null) preferred device: Apple M1 Pro (high power)
+2023-06-23 15:01:19.754 Unity[21256:16184278] Metal devices available: 1
+2023-06-23 15:01:19.754 Unity[21256:16184278] 0: Apple M1 Pro (high power)
+2023-06-23 15:01:19.754 Unity[21256:16184278] Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001614 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 44.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.669 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 46.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.091 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2153 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.7 MB.
+System memory in use after: 126.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2611.
+Total: 2.261000 ms (FindLiveObjects: 0.155125 ms CreateObjectMapping: 0.046833 ms MarkObjects: 1.950833 ms  DeleteObjects: 0.106875 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Rendering
+  artifactKey: Guid(1e8778c1c93484d3bba1d6890772a5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering using Guid(1e8778c1c93484d3bba1d6890772a5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5266a0f1182c8c43c491947b26729f2b') in 0.030931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.923700 seconds.
+  path: Assets/Rendering/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(e1d3e80a2c8844ffa99c3056709c8e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering/UniversalRenderPipelineAsset.asset using Guid(e1d3e80a2c8844ffa99c3056709c8e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1fab35bea8b9978e156925edd39b6d') in 0.151818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Rendering/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(b936bc2a73b4143d4823d1b795645278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rendering/UniversalRenderPipelineAsset_Renderer.asset using Guid(b936bc2a73b4143d4823d1b795645278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf2e48f5f92ef1ec4a56bd92b0e3b82') in 0.016237 seconds 
